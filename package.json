@@ -1,0 +1,19 @@
+{
+  "name": "kimo_software",
+  "version": "1.0.0",
+  "description": "A Software Agency Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kingsley-coder-prog/kimo_software.git"
+  },
+  "author": "Ifeanyi Kingsley NWANKWO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kingsley-coder-prog/kimo_software/issues"
+  },
+  "homepage": "https://github.com/Kingsley-coder-prog/kimo_software#readme"
+}
