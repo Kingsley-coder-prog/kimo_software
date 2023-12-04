@@ -85,6 +85,19 @@ body {
   width: 1500px;
 } */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 20px;
+  color: var(--nav-text-color);
+}
+
 .before-first-header {
   display: flex;
   align-items: center;
@@ -131,16 +144,16 @@ body {
   text-decoration: none;
 }
 
-.first-header-right .email h4,
-.first-header-right .time h4,
+.first-header-right .email p,
+.first-header-right .time p,
 .first-header-left-text p {
   font-weight: 400;
   color: var(--top-navbar-text);
   font-size: 18px;
 }
 
-.first-header-right .email h4:hover,
-.first-header-right .time h4:hover {
+.first-header-right .email p:hover,
+.first-header-right .time p:hover {
   color: var(--top-navbar-hover);
 }
 
@@ -242,6 +255,7 @@ body {
 
 .phone-text {
   display: flex;
+  padding-top: 14px;
   flex-direction: column;
   gap: 10px;
   padding-left: 8px;
@@ -325,6 +339,7 @@ body {
 /* SUB-HERO SECTION */
 .sub-hero-section {
   margin-top: 90px;
+  position: relative;
 }
 
 .sub-hero-container {
